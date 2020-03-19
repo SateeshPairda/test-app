@@ -1,0 +1,116 @@
+
+  .head{
+     width:100%;
+     height:50px;     
+      line-height: 50px;
+      border-bottom: 1px solid lightgray;
+  }
+  .img{
+    width:35px;
+    border-radius: 50%;
+}
+  ul{
+      list-style: none;
+      float:right;      
+  }
+   ul li{
+    color:black;
+    display: inline-block;
+    padding-right: 10px;   
+  }
+  .sidenav {
+    height: 100%;
+    width: 60px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: purple;
+    overflow-x: hidden;
+    margin-top: 47px;
+  }
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+  }  
+  .search-area{
+      margin-left: 150px;
+      float: left;
+  }
+  .nav{
+      width:100%;    
+      margin-left: 70px;
+    
+  }
+  
+  .somes{
+      width:150px;
+      height:20px;
+      line-height: 20px;
+      border: none;
+      border-bottom: 1px solid black;
+      background: transparent;
+      outline: none;
+      margin-left: 20px;
+      color:gray;
+  }
+  .pie{
+      margin-top: 200px;
+  }
+  .tags{
+    width:100px;
+    height:20px;
+    line-height: 20px;
+    border: none;
+    border-bottom: 1px solid black;
+    background: transparent;
+    outline: none;
+    margin-left: 20px;
+    color:gray;
+  }
+  .container-drag{
+      text-align: center;
+  }
+  .wip{
+      position: absolute;
+      width: 150px;
+      height:100vh;
+      left:0;
+      top:10;
+      background-color: #EEEEEE;
+      border-right:1px dotted;
+      margin-left: 60px;
+  }
+  .header{
+      display: inline-block;
+      margin:0;
+      padding: 0;
+      background-color: #ee00ee;
+
+  }
+  .task-header{
+      display: inline-block;
+      background-color: skyblue;
+      width: 100%;
+
+  }
+  .droppable{
+      position: absolute;
+      width: 150px;
+      height:100vh;
+      right:0;
+      top:10;
+      background-color: red;
+      border-left: 1px dotted;
+  }
+  .draggable{
+      width:100px;
+      height:100px;
+      background-color: yellow;
+      margin: 5px auto;
+      line-height: 5em;
+  }
+ 
